@@ -12,6 +12,6 @@ jobs:
     name: Github actions job to push to s3
     uses: akshay8181/central-repo/.github/workflows/main.yml@main
     with:
-      BUCKET_NAME: dev
+      BUCKET_NAME: test-bucket34k
       AWS_REGION: "us-east-1"  
       
